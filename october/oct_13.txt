@@ -1,0 +1,47 @@
+10/13/16
+Aim: All your data are belong to us
+
+RELATIONAL DATABASE
+- Database that stores info as a collection of tables
+- Field --> Column data in a rdb
+- Record --> Row in a RDB
+- Data can be linked between tables based on field values
+- Example:
+		 School Database
+	Students Table	    Class Table
+	 Name  |  ID	  Name | ID | Grade	
+	-------|------  -------|----|-------
+	Lorenz |   0    SoftDev| 0  |  60
+	Jerry  |   1    SoftDev| 1  |  80
+	Kate   |   2    Systems| 1  |  90
+
+STRUCTURED QUERY LANGUAGE
+- Standard language designed to work with relational databases
+- Used for many major db programs, though the implementations may not be compatible
+- Different implementations
+
+SQLITE
+- SQL implementation that relies entirely on function calls in the parent program
+- No database server
+- All database info is stored in a single file
+- Data is dynamically typed as values are inserted into a table
+- Can interact with through CL
+	- $ sqlite school.db --> takes you to interactive shell
+- Basic operations:
+	- CREATE TABLE
+		- Add a table to a database
+		- CREATE TABLE <name> (<column> <dataType>, ...<more columns>);
+		- Data type will help to convert entered data to suggested type
+			- TEXT, INTEGER, REAL, NUMERIC, BLOB (whatever)
+		- Columns can be given PRIMARY KEY attribute, denoting that every entry in that column is unique and cannot be null
+		- Also can be given a NOT NULL attrivute, must fill in said field
+			- students (name TEXT PRIMARY KEY, sid INTEGER NOT NULL);
+	- INSERT INTO
+		- For adding data, insert a record into a table
+		- $ INSERT INTO <name> VALUES (<field1>, <field2> ...)
+		- Will add a record to a table matching the values to the columns in order
+		- NULL can be used
+	- SELECT <column> FROM <name>
+		- Shows all entries in a table from specific columns
+		- Used to get data from a database
+		- Will return a table containing only requested columns from selected tables

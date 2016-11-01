@@ -1,0 +1,29 @@
+10/17/18
+Aim: Sqlite, the low-fat alternative to SQL
+
+PYTHON SQLITE MODEL - METHODS
+- import sqlite3
+- connect
+	- open/create an sqlite database
+	- db = sqlite3.connect(<dbname>)
+- cursor
+	- create a database cursor object that will allow you to perform operations of the database
+	- c = db.cursor()
+- execute
+	- cursor method to perform the provided SQL operation, given as a string
+	- c.execute(<SQL statement>)
+- commit
+	- database method to save changes to the db
+	- db.commit() (not cursor)
+- db.close()
+	- closes database
+
+PYTHON PROTIP: FORMAT STRINGS
+
+'(x,y) is a point'
+
+BEFORE: '(' + x + ',' + y + ") is a point'
+AFTER: '(%d,%d) is a point'%(x,y)
+
+%d = decimal (placeholder for decimal number)
+%s for strings, %i for integers, etc
