@@ -1,0 +1,12 @@
+9/29/16
+Aim: Don't forget to include POSTage
+
+Request object
+- Stores info about upcoming requests
+- request.headers: html headers sent from the browser
+- request.method: the request method (GET or POST)
+= request.args: the arguments in a query string from a GET request
+- request.form: the arguments sent in a POST request
+
+"method not allowed" --> enabled automatically for get reauests, not post requests
+- enable by adding to a decorator: methods["GET", "POST"]

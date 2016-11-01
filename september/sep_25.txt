@@ -1,0 +1,16 @@
+9/25/16
+Aim: Your desktop might not be organized, but your code will be!
+
+{ % for item in collection % }
+	{{ item }}
+	<br>
+{ % end for % }
+
+Free-floating code --> NO!
+Put it in a function. It's useful.
+
+Roulette-Wheel Selection
+- Every bucket has the same value
+- Repeats of buckets to make some choices more likely than others
+
+print message in flask --> prints in terminal (for debugging), use return for printing html

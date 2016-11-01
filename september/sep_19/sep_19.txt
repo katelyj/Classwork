@@ -1,0 +1,20 @@
+9/19/16
+Aim: What are we keeping in that flask?
+
+SOFTDEV TOOLBOX!
+- Python 2.7 (NOT 3!)
+- pip (python package manager)
+- virtualenv
+	- Creates sandbox for Python environment
+	- Allows you to maintain a specific Python environment without messing up the system version
+	- Can install packages without root access to a system
+- flask
+	- "Microframework" for developing web applications
+	- Has its own development web server (no more public_html)
+	- Contains following 2 modules:
+		- werkzeug
+			- Web server gateway interface implementation
+			- Allows web apps to respond to web requests
+		- jinja2
+			- HTML template engine
+			- Easily create multiple pages that share styles and content
