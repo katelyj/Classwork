@@ -1,9 +1,0 @@
-11/1/16
-Aim: Extending your template knowledge.
-
-TEMPLATE INHERITANCE!!!!!!!!!!!!!!!!
-
-Extending HTML templates
-	- Any template can be "inherited" by others.
-	- To extend a template: {% extends "<TEMPLATE>" %}
-	- ^^ Goes at very top of template
