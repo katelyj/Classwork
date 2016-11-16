@@ -1,0 +1,38 @@
+11/15/16
+Aim: Stuylin'
+
+Cascading Style Sheets (CSS)
+	- Created to separate the presentation of an html/xml page and its contents
+	- Basic syntax:
+		- PROPERTY: VALUE;
+		  color: lightsteelblue; (text color, always)
+		  text-align: center;
+		  border: 10px; (no space between number and unit)
+	- 3 ways to incorporate CSS into a page: inline, internal style sheet, external style sheet
+		- Inline CSS
+			- Add CSS code to the style attribute of a tag
+			- Probably used the least
+			- <TAG style="CSS CODE">
+			- <p style="color: green; font-size: 2em;"> ... </p> (em is a unit for font size)
+		- Internal style sheet
+			- Add a <style> element to the <head> section of the page
+			- Include all your CSS code inside the <style> ... </style> block
+			- Internal and external style sheets require the addition of a selector so that it's clear what element you are styling
+			- SELECTOR {
+				CSS CODE
+			} 
+			- <head>
+			    <style>
+				h1 {
+					color: #FF00FF;
+				}
+			    </style>
+			  </head>
+		- External style sheet
+			- Create a separate .css file that contains all your CSS code
+			- It cannot contain any other kind of code, including html or xml
+			- Include a link to the css file inside the <head> section of your page
+			- <head>
+				<link rel="stylesheet" type="text/css" href="STYLE FILE">
+			  </head>
+			- Commonly agreed as best method to implement CSS
