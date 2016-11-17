@@ -1,0 +1,17 @@
+11/17/16
+Aim: Stay classy, css
+
+div tag
+	- <div> is a container element
+	- sole purpose is to define a section of your page that should be considered grouped together
+
+class attribute
+	- all html elements can have a class attribute
+	- it is an identifier that can be applied to multiple elements
+	- <div class="navbar"> ... </div>
+	  <h2 class="new_chapter bold"> ... </h2> (multiple classes to one thing)
+	- classes can be used as CSS selectors by using a . before the class name
+		- .new_chapter {
+			font-family: "Times New Roman", Times, serif;
+			text-align: center;
+		  }
