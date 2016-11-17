@@ -15,3 +15,14 @@ class attribute
 			font-family: "Times New Roman", Times, serif;
 			text-align: center;
 		  }
+
+id attribute
+	- all html elements can have an id attribute
+	- it is an identifier that should only be applied to a single element
+	- <div id="main_content"> ... </div>
+	- id names can be used in <a> tags as the href target
+		- <a href="#main_content"> ... </a>
+	- ids can be used as selectors by putting a # before the id name
+		- #main_content {
+			border: 2px solid goldenrod;
+		}
