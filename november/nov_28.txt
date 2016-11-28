@@ -1,0 +1,5 @@
+11/28/16
+Aim: After being framed, you might need to take a REST
+
+Tips for using frameworks
+	- Many files have .min equivalents, which contain the same code without any extra formatting
