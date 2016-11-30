@@ -1,0 +1,25 @@
+11/29/16
+Aim: Web crawling pythons
+
+Marking and parsing a REST call in python
+	- urlib2
+	  - Library to handle urls
+	  - Methods
+	    .urlopen(<URL>)
+		u = urllib2.urlopen(<URL>)
+	      	Open a url to be read by your program
+	    .geturl()
+		u.geturl()
+		Returns the actual url (in case of redirects)
+	    .info()
+		u.info()
+		Returns the http/s header information
+	    . read()
+		u.read()
+		Returns the contents of the target webpage
+	- json
+	  - Libary to work with json data
+	  - .loads(<STRING>)
+		Returns a dictionary from a string of json data
+	  - .dumps(<DICTIONARY>)
+		Returns a Python string from a json dictionary
