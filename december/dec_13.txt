@@ -1,9 +1,9 @@
 12/13/16
 Aim: Learning to write in script
 
-Knock knock.
+Knock knock
 Who's there?
-Keyboard interrupt.
+Keyboard interrupt
 Keyboa-
 MOO!
 
@@ -12,3 +12,27 @@ javascript
 	- No direct relationship with java, though both have similar syntax
 	- Dynamically typed -- variable types are provided at runtime (like python)
 	- Most development will be done through a web browser's console
+	- console.log()
+		- equivalent to printf or system.out.print()
+		- there is no built in i/o
+		- will display a string to the console
+		- less popular: alert("") --> brings up dialogue box with whatever you type
+	- C-style syntax
+		- curly braces, semicolons, if/elseif/else, while loops, for <counters>, i++, operators
+	- Variable basics
+		- declare with "var"
+		- var x = 4;
+		- var b = true;
+		- var s = "hello";
+		- var l = [4, 3, 19];
+		- var o = { 'a' : 10, 'x' : 'hello' };
+
+Document Object Model (DOM)
+	- javascript derives most of its utility through being able to interact with html and xml documents
+	- the DOM is an API for interacting with html
+	- provides a structure that we can interact with and can be manipulated by functions
+	- pages are represented as trees
+	- selecting HTML elements
+		- document.getElementByID(<ID>)
+		- document.getElementsByTagName(<TAG>)
+		- document.getElementsByClassName(<CLASS>)
