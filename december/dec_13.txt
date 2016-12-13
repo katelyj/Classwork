@@ -1,0 +1,14 @@
+12/13/16
+Aim: Learning to write in script
+
+Knock knock.
+Who's there?
+Keyboard interrupt.
+Keyboa-
+MOO!
+
+javascript
+	- Programming language originally designed to augment html and be run locally on a web browser
+	- No direct relationship with java, though both have similar syntax
+	- Dynamically typed -- variable types are provided at runtime (like python)
+	- Most development will be done through a web browser's console
