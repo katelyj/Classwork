@@ -36,3 +36,11 @@ Document Object Model (DOM)
 		- document.getElementByID(<ID>)
 		- document.getElementsByTagName(<TAG>)
 		- document.getElementsByClassName(<CLASS>)
+	- manipulating DOM elements
+		- .remove()
+		- .innerHTML
+		- .document.createElement( <HTML TAG NAME> )
+		- .appendChild( <ELEMENT> )
+		- .setAttribute( <NAME>, <VALUE> )
+		- .getAttribute( <NAME> )
+		- .addEventListener( <EVENT>, <FUNCTION> )
