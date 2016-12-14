@@ -44,3 +44,5 @@ Document Object Model (DOM)
 		- .setAttribute( <NAME>, <VALUE> )
 		- .getAttribute( <NAME> )
 		- .addEventListener( <EVENT>, <FUNCTION> )
+			button.addEventListener("click", alert("ANNOYING!"));
+				--> When buttom clicked, alert given to user
