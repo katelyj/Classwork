@@ -44,5 +44,7 @@ Document Object Model (DOM)
 		- .setAttribute( <NAME>, <VALUE> )
 		- .getAttribute( <NAME> )
 		- .addEventListener( <EVENT>, <FUNCTION> )
-			button.addEventListener("click", alert("ANNOYING!"));
-				--> When buttom clicked, alert given to user
+			button.addEventListener("click", function() { alert("ANNOYING!") } );
+				--> When buttom clicked, anonymous function created and added to element
+					- Returns function that returns alert("ANNOYING!")
+					- Does not return function when added, but does once the button is clicked AGAIN after
