@@ -48,3 +48,12 @@ Document Object Model (DOM)
 				--> When buttom clicked, anonymous function created and added to element
 					- Returns function that returns alert("ANNOYING!")
 					- Does not return function when added, but does once the button is clicked AGAIN after
+					- Cannot just put alert() without function()... will just call alert(), not bind it
+					- Can also do:
+						var f = function() { alert("ANNOYING!"); }
+						button.addEventListener("click", f);
+					- But, should always have a variable passed... like "e" (argument gives event that happened, can be called whatever, not just e)
+						var f = function(e) { console.log( e ); }
+						button.addEventListener( 'click', f );
+					- variable "this" will be the thing that the event was done do (ex. the button)
+						- "the calling object in respect to event listeners"
