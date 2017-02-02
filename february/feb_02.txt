@@ -1,0 +1,15 @@
+2/2/17
+Aim: Documentmenting your data
+
+NoSQL: Any database that is not an SQL database
+	- Graph databases
+	- Document-based databases
+	- File system databases
+
+Document-Oriented Database
+	- Records in Document Oriented Databases are stored as documents
+	- Each document contains all the data that is associated with the given record, in key-value pairs (fields)
+	- You do not need to specify the type of data put into each field
+	- Fields can contain many different kinds of data, including lists and dictionaries
+	- Documents that are meant to be stored together are put into collections
+	- Documents in the same collection do not need to have the same fields
