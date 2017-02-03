@@ -36,3 +36,4 @@ Working with pymongo
 		- Insert it into the collection
 			- doc = { 'name' : 'bob', 'age' : 55 }
 			- c.insert_one(doc)
+			- You can insert a list of documents with insert_many()
