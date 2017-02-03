@@ -17,3 +17,8 @@ Document-Oriented Database
 
 mongod
 	- Server process to run mongo
+	
+Working with pymongo
+	- from pymongo import MongoClient
+	- Connecting to a mongod server and database
+		- server = MongoClient(<IP>)
