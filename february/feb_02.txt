@@ -22,3 +22,17 @@ Working with pymongo
 	- from pymongo import MongoClient
 	- Connecting to a mongod server and database
 		- server = MongoClient(<IP>)
+			>>> from pymongo import MongoClient
+			>>> server = MongoClient('149.89.150.100')
+	- To access databases and collections, you can use either [] or .
+		- db = server['mydb']
+		- db = server.mybd
+		- c = db['students'] #db.students
+	- Databases and collections are not created until a document has been added to them
+	- db.students.count() (or c.count()) 
+		- counts number of documents in students database
+	- To add a document:
+		- Create a dictionary
+		- Insert it into the collection
+			- doc = { 'name' : 'bob', 'age' : 55 }
+			- c.insert_one(doc)
