@@ -1,0 +1,14 @@
+2/8/17
+Aim: upDAT(A)ing mongo
+
+Modifying data
+	- .delete_one(<QUERY>)
+		- Deletes the first document that matches the query
+	- .delete_many(<QUERY>)
+		- Deletes all the documents that match the query
+	- .update_one(<QUERY>, <OPERATION>)
+		- Updates a document that matches the query
+		- Operation is a document that matches an update operation
+			- '$set' --> Change the value of a field
+			- '$unset' --> Remove a field
+			- '$inc' --> Increment the value of a field
