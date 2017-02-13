@@ -3,3 +3,13 @@ Aim: Canvasing the area
 
 HTML5
 	- Redesign of HTML with a focus on making the more "modern" features of web browsers easy to work with
+	- Designed around javascript and a standardized DOM
+	- Includes built in support for audio and video playback
+	- Includes an element that can be directly drawn on
+
+Canvas
+	- HTML5 element that provides a drawing area
+	- Javascript functions can draw onto a canvas element
+	- You must declare what context you are drawing in
+		- 2D drawing, 3D drawing, raw bitmap rendering
+	- Give a canvas an ID so you can interact with javascript
