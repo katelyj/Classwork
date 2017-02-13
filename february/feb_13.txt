@@ -1,0 +1,5 @@
+2/13/17
+Aim: Canvasing the area
+
+HTML5
+	- Redesign of HTML with a focus on making the more "modern" features of web browsers easy to work with
