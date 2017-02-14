@@ -1,0 +1,29 @@
+2/14/17
+Aim: Your path to success starts here!
+
+
+CANVAS LAYOUT IN JAVASCRIPT:
+
+(0,0) ----------> x+
+|
+|
+|
+|
+|
+V
+y+
+
+(no negative coordinates)
+
+
+javascript path functions
+	- paths are used to draw arbitrary shapes, including circles and curves
+	- a context can keep track of one path at a time
+	- the path is not drawn until stroke() is called
+	- a path is considered done when a new beginPath() is called
+	- example code
+		var ctx = document.getElementById('slate').getContext('2d'); // set up canvas
+		ctx.beginPath(); // begins path!
+		ctx.moveTo(250, 150); // point at that coordinate, no line from original point
+		ctx.lineTo(250, 250); // line from original point to that coordinate
+		ctx.stroke(); // will show the line!
