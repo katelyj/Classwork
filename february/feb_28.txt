@@ -1,0 +1,15 @@
+2/28/17
+Aim: Vector-ize me
+
+Creating SVG elements in javascript
+	- document.createElementNS( <NAMESPACE>, <ELEMENT> );
+		- creates an element from a specified XML namespace
+	- example: create element <circle cx="0" cy="0" r="25" fill="yellow"></circle> 
+		c = document.createElementNS( "http://www.w3.org/2000/svg", "circle");
+		c.setAttribute("cx", "0");
+		c.setAttribute("cy", "0");
+		c.setAttribute("r", 25);
+		c.setAttribute("fill", "yellow");
+	- making it show up: append to space
+		s.appendChild(c);
+	- can still change attributes after appended
