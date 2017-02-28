@@ -2,10 +2,10 @@
 Aim: What's your vector victor?
 
 XML: eXtensible Markup Language
-     - It is not a formatting language (like HTML)
-     - A framework for creating markup based grammars
-     - An XML namespace is defined by the tags and attributes associated with a specific XML language
-     - The <svg> element is designed to store SVG code (that is, SVG XML elements)
+	- It is not a formatting language (like HTML)
+	- A framework for creating markup based grammars
+	- An XML namespace is defined by the tags and attributes associated with a specific XML language
+	- The <svg> element is designed to store SVG code (that is, SVG XML elements)
        	   - <svg xmlns="http://www.w3.org/2000/cvg">
        	      SVG CODE HERE
 	     </svg>
