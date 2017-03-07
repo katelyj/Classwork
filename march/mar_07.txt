@@ -1,0 +1,8 @@
+3/7/16
+Aim: It's like this and like that and like this...
+
+Event Propagation
+	1. An element interrupts an event
+	2. Browser collects DOM node path of the event from the starting element to the root
+	3. Capture: The event propagates down the path from step 2
+	4. Bubble: the event propagates up the path from step 2
