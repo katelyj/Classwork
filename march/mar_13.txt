@@ -1,2 +1,9 @@
 3/13/17
 Aim: r3d3?
+
+d3.js 
+	- javascript framework designed for working with data
+	- The basics:
+		- include http://d3js.org/d3.v3.min.js in a script tag to use d3, or download source and use that instead
+
+
