@@ -3,7 +3,10 @@ Aim: r3d3?
 
 d3.js 
 	- javascript framework designed for working with data
-	- The basics:
-		- include http://d3js.org/d3.v3.min.js in a script tag to use d3, or download source and use that instead
-
-
+	- Include http://d3js.org/d3.v3.min.js in a script tag to use d3, or download source and use that instead
+	- Selectors:
+		- d3.select(<IDENTIFIER>);
+			- Returns the first element that matches the given identifier
+		- d3.selectAll(<IDENTIFIER>);
+			- Returns an array of all the elements that match the given identifier
+	- After selecting an element, you can set various attributes (style, text, listeners)
