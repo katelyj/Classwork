@@ -31,7 +31,7 @@ List Comprehensions
 
 	Make a list of all the composite numbers from 2 to 100
 	
-	(repeats are allowed)
+	     [ y for x in range(2, 10) for y in range(2 * x, 100, x)
 
 	
 
