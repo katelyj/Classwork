@@ -1,0 +1,12 @@
+5/1/17
+Aim: Functioning tools
+
+No functional programming toolbox would be complete without the following concepts:
+	- Memoization
+	- Map
+	- Filter
+	- Reduce
+
+Memoization
+	- Reducing the time it takes to complete an (often recursive) algorithm by saving previously computed values to be used later
+	- Can be easily created using decorators
